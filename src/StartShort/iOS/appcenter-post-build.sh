@@ -9,7 +9,7 @@ set -e
 # variables
 
 appCenterLoginApiToken=$AppCenterLoginToken # this comes from the build environment variables
-appName="cwiHirayama/XamAppCenterSample2018iOS"
+appName="hyaliiiy/XamAppCenterSample2018iOS"
 deviceSetName="hirayama/my-devices"
 publishedAppFileName="XamAppCenterSample2018.iOS.ipa"
 sourceFileRootDir="$APPCENTER_SOURCE_DIRECTORY/src/Finish"
