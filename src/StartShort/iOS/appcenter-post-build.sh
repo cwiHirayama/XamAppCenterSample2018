@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 
 # Post Build Script
 
@@ -9,10 +9,10 @@ set -e
 # variables
 
 appCenterLoginApiToken=$AppCenterLoginToken # this comes from the build environment variables
-appName="hyaliiiy/XamAppCenterSample2018iOS" # 自分のアプリ名に書き換える
-deviceSetName="hirayama/my-devices" # 自分のデバイスセット名に書き換える
+appName="cwiHirayama/XamAppCenterSample2018iOS"
+deviceSetName="hirayama/my-devices"
 publishedAppFileName="XamAppCenterSample2018.iOS.ipa"
-sourceFileRootDir="$APPCENTER_SOURCE_DIRECTORY/src/StartShort"
+sourceFileRootDir="$APPCENTER_SOURCE_DIRECTORY/src/Finish"
 uiTestProjectName="UITests"
 testSeriesName="all-tests"
 ##################################################
